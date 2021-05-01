@@ -16,7 +16,19 @@ html{
 /* ------------------------------------------ */
 /* ------------------HEADER------------------ */
 /* ------------------------------------------ */
+header{
+    background-image: url("../img/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* view height */
+    background-attachment: fixed;
+}
 .logo{
     width: 350px;
 }
 
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
