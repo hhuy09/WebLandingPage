@@ -25,7 +25,7 @@ html{
     border-bottom: 2px solid #cccccc;
 }
 
-h1,h2{
+h1,h2,h3{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -67,9 +67,25 @@ h2::after{
     line-height: 140%;
 }
 
+h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(52, 80, 131);
+    border-radius: 20px 20px 0px 0px;
+    text-transform: uppercase;
+    color: white;
+}
+
 section{
     /* margin-top: 50px; */
     padding: 50px;
+}
+
+.small-icon{
+    color: rgb(89, 97, 133);
+    margin-right: 10px;
+    font-size: 120%;
 }
 
 /* ------------------------------------------ */
@@ -186,3 +202,136 @@ header{
     transform: translate(-65%, -50%);
     opacity: 1;
 }
+
+/* ------------------------------------------ */
+/* -------------PRODUCTS SECTION------------- */
+/* ------------------------------------------ */
+.product-section{
+    background-color: #f4f4f4;
+}
+
+.product-section h2{
+    margin-bottom: 60px;
+}
+
+.product-box{
+    background-color: rgb(226, 238, 255);
+    width: 90%;
+    height: 350px;
+    border-radius: 20px;
+    text-transform: center;
+    box-shadow: 0px 5px 15px 5px rgb(124, 131, 139);
+    transition: all 0.7s;
+}
+
+.per-month{
+    text-align: center;
+    font-size: 200%;
+    color: rgb(35, 54, 83);
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.product-box ul li{
+    margin-left: 20%;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-box a{
+    text-transform: center;
+}
+
+.product-box .btn{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------ */
+/* -----------TESTTIMONIALS SECTION---------- */
+/* ------------------------------------------ */
+.testimonials-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64,0.8) 55%,rgb(45,95,93,0.7)), url("../img/background2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonials-section h2{
+    margin-bottom: 70px;
+}
+
+blockquote{
+    width: 95%;
+    position: relative;
+    font-style: italic;
+    line-height: 140%;
+    color: white;
+}
+
+blockquote::before{
+    content: '\201C';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+cite{
+    display:  block;
+    color:#869eee;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 50px;
+    border: 2px solid #869eee;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+/* ------------------------------------------ */
+/* --------------SPONSORS SECTION------------ */
+/* ------------------------------------------ */
+.sponsors-section{
+    background:#f4f4f4;
+
+}
+
+.sponsors-section h2{
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase{
+    margin-left: 8%;
+}
+
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-sponsor{
+    width: 150px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.15);
+}
+
+figcaption{
+    color: #265077;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+}
+
