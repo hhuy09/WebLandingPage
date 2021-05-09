@@ -4,11 +4,11 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/queries.css">
     <link rel="stylesheet" href="./vendors/css/grid.css">
-    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="./vendors/css/grid.css">
     <title>SelfTaught</title>
 </head>
 
@@ -184,13 +184,67 @@
         </div>
     </section>
     <section class="contact-section">
-
+        <div class="row">
+            <div class="col span-3-of-6">
+                <ul class="information">
+                    <li><i class="fas fa-map-marker-alt small-icon"></i>Address: 21A, SelfTaught street, Ha Noi</li>
+                    <li><i class="fas fa-envelope small-icon"></i>Email: selftaughtteam@edu.com</li>
+                    <li><i class="fas fa-phone small-icon"></i>Phone: (+084s)099-923-232-320</li>
+                </ul>
+                <ul class="social-icons">
+                    <li><i class="fab fa-facebook"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-google-plus-square"></i></li>
+                </ul>
+            </div>
+            <div class="col span-3-of-6">
+                <form>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                             <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                             <input type="text" placeholder="Your Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                             <label>Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                             <input type="email" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                             <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                             <textarea  placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div class="btnn">
+                        <input type="submit" class="btn" value="Send It">
+                    </div>                    
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>
-            Copyright &copy; 2018 by SELFTAUGHT TEAM 
-        </p> 
+        <div class="row">
+            <p>Copyright &copy; 2018 by SELFTAUGHT TEAM </p>
+        </div>  
     </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="./vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./resources/js/scripts.js"></script>
 </body>
 
 </html>
